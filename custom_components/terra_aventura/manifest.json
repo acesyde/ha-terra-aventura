@@ -1,0 +1,11 @@
+{
+  "domain": "terra_aventura",
+  "name": "Terra Aventura",
+  "config_flow": true,
+  "documentation": "https://github.com/acesyde/ha-terra-aventura",
+  "issue_tracker": "https://github.com/acesyde/ha-terra-aventura/issues",
+  "requirements": [],
+  "codeowners": ["@acesyde"],
+  "iot_class": "cloud_polling",
+  "version": "0.0.1"
+}

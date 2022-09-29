@@ -1,0 +1,16 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "data": {
+          "username": "Nom d'utilisateur",
+          "password": "Mot de passe"
+        }
+      }
+    },
+    "error": {
+      "bad_credentials": "Nom d'utilisateur ou mot de passe incorrect",
+      "unknown": "Erreur inconnue"
+    }
+  }
+}

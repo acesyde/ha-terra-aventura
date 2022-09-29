@@ -1,0 +1,16 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "data": {
+          "username": "Username",
+          "password": "Password"
+        }
+      }
+    },
+    "error": {
+      "bad_credentials": "Bdad credentials",
+      "unknown": "Unknown error"
+    }
+  }
+}
