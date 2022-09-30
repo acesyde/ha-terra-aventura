@@ -8,6 +8,9 @@
         }
       }
     },
+    "abort": {
+      "already_configured": "Integration is already configured"
+    },
     "error": {
       "bad_credentials": "Bdad credentials",
       "unknown": "Unknown error"

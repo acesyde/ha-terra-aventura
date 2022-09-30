@@ -8,7 +8,8 @@ API_TIMEOUT_SECONDS = 30
 LOGGER: logging.Logger = logging.getLogger(__package__)
 
 # Base Terra Aventura Url
+APP_VERSION = "3.2.0"
 BASE_URL = "https://www.terra-aventura.fr"
-LOGIN_PATH = "/user/login?langcode=fr&_format=json"
-USER_PATH = "/app-user-get?uid=484376&version=3.2.0&langcode=fr&_format=json"
-JOKER_PATH = "/app-jokers-config?langcode=fr&_format=json"
+LOGIN_ENDPOINT = "/user/login?langcode=fr&_format=json"
+USER_ENDPOINT = "/app-user-get?uid={uid}&version={version}&langcode=fr&_format=json"
+JOKER_ENDPOINT = "/app-jokers-config?langcode=fr&_format=json"

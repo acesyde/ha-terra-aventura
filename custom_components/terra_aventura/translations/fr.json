@@ -8,6 +8,9 @@
         }
       }
     },
+    "abort": {
+      "already_configured": "L'integration est déjà configurée"
+    },
     "error": {
       "bad_credentials": "Nom d'utilisateur ou mot de passe incorrect",
       "unknown": "Erreur inconnue"

@@ -4,20 +4,11 @@ from dataclasses import dataclass, field
 
 
 @dataclass
-class TerraAventuraLoginCurrentUser:
-    """TerraAventura Login Current User."""
-
-    uid: str
-    name: str
-
-
-@dataclass
 class TerraAventuraLoginResponse:
     """TerraAventura Login Response."""
 
-    current_user: TerraAventuraLoginCurrentUser = field(
-        default_factory=TerraAventuraLoginCurrentUser
-    )
+    uid: str = None
+    name: str = None
     csrf_token: str = None
     logout_token: str = None
 

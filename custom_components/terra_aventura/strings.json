@@ -8,6 +8,9 @@
         }
       }
     },
+    "abort": {
+      "already_configured": "[%key:common::config_flow::abort::already_configured%]"
+    },
     "error": {
       "bad_credentials": "[%key:common::config_flow::error::bad_credentials%]",
       "unknown": "[%key:common::config_flow::error::unknown%]"
